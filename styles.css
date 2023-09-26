@@ -3,11 +3,14 @@ body{
 	background-color:lightgray;
 	padding: 0px;
 }
-.blog-column{
+.main-container{
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	justify-content: center;
+	grid-auto-flow: row;
+	gap: 10px; 
 }
-.blog{
+.blog-column{
 	margin: 20px;
 	text-align:center;
 	background-color:white;
