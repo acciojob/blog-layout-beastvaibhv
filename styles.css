@@ -8,18 +8,18 @@ body{
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 }
-.main-container > div{
+.blog-column > div{
 	margin: 20px;
 	text-align:center;
 	background-color:white;
 	width: 30vb;
 	height: 30vh
 }
-.main-container>div>ul{
+.blog-column>div>ul{
 	list-style-type:none;
 	
 }
-.main-container>div>ul>li{
+.blog-column>div>ul>li{
 		text-align:left;
 	padding-left: 30px;
 }
