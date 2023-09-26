@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 body{
 	background-color:lightgray;
+	padding: 0px;
 }
 .main-container{
 	display: flex;
